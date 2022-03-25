@@ -4,7 +4,7 @@
 
 /////////////////
 
-// Pseudo code: App outline
+// Pseudocode: App outline
 
 // Add h1 element with logo (inside of main tag)
     // add event listener that refreshes the page
@@ -26,5 +26,4 @@
 // Optional 
     // Quote of the Day API
     // Message about drinking responsably and respecting life.
-
-
+    
