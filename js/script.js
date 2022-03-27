@@ -55,12 +55,56 @@
 
     $("#drink-image").html(`<img id="drk-image" src=${data.drinks[0].strDrinkThumb} alt="${data.drinks[0].strDrink}"/>`)
 
-    // make image to the left (come back to this)
+    // make image to the left 
+            // COME BACK TO THIS
 
-    // Ingredients to the right (Same roll as drink image)
-            
+    // Ingredients to the right (Same roll as drink image) 
+            // COME BACK TO THIS
 
+    $("#ingredients-title").text(`Ingredrients: `)
+
+    
+    $("#ingredient1").text(`• ${data.drinks[0].strIngredient1}`)
+    $("#ingredient2").text(`• ${data.drinks[0].strIngredient2}`)
+    $("#ingredient3").text(`• ${data.drinks[0].strIngredient3}`)
+    $("#ingredient4").text(`• ${data.drinks[0].strIngredient4}`)
+    $("#ingredient5").text(`• ${data.drinks[0].strIngredient5}`)
+    $("#ingredient6").text(`• ${data.drinks[0].strIngredient6}`)
+    $("#ingredient7").text(`• ${data.drinks[0].strIngredient7}`)
+    $("#ingredient8").text(`• ${data.drinks[0].strIngredient8}`)
+    $("#ingredient9").text(`• ${data.drinks[0].strIngredient9}`)
+    $("#ingredient10").text(`• ${data.drinks[0].strIngredient10}`)
+
+    
+
+    if (data.drinks[0].strIngredient3 === null) { 
+        $("#ingredient3").remove();
+    }
+    if (data.drinks[0].strIngredient4 === null) { 
+        $("#ingredient4").remove();
+    }
+    if (data.drinks[0].strIngredient5 === null) { 
+        $("#ingredient5").remove();
+    }
+    if (data.drinks[0].strIngredient6 === null) { 
+        $("#ingredient6").remove();
+    }
+    if (data.drinks[0].strIngredient7 === null) { 
+        $("#ingredient7").remove();
+    }
+    if (data.drinks[0].strIngredient8 === null) { 
+        $("#ingredient8").remove();
+    }
+    if (data.drinks[0].strIngredient9 === null) { 
+        $("#ingredient9").remove();
+    }
+    if (data.drinks[0].strIngredient10 === null) { 
+        $("#ingredient10").remove();
+    }
+    
     // and then finally recipe instructions
+
+    
 
     })
 })

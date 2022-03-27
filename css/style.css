@@ -59,6 +59,7 @@ main {
 #drink-title {
     text-align: center;
     font-family: roboto, sans-serif;
+    font-size: 20px;
     font-weight: 400;
     padding-top: 10px;
 }
@@ -75,3 +76,10 @@ main {
     /* height: auto; */
 }
 
+#drink-image-div {
+    
+}
+
+#ingredients-div {
+    
+}
