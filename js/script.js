@@ -104,7 +104,8 @@
     
     // and then finally recipe instructions
 
-    
+    $("#instructions").text(`Instructions: ${data.drinks[0].strInstructions}`)
+
 
     })
 })

@@ -76,10 +76,16 @@ main {
     /* height: auto; */
 }
 
-#drink-image-div {
-    
+#ingredients-title {
+    text-align: center;
+    padding-bottom: .5em;
 }
 
 #ingredients-div {
-    
+    text-align: center;
+    line-height: 0.2em;
+}
+
+#instructions {
+    text-align: center;
 }
