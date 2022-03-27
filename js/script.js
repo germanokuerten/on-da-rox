@@ -20,8 +20,20 @@
         // done on css.
 
 // 2. Add "Craft me a Drink" button
+
+    // done on html and css
+
+    const $drinkButton = $("drink_button")
+
     // center it
+        // done in css through <header> tag/element
+
     // add event listener that on the click makes the API call to a random drink
+
+    
+    
+
+
     // add "crispy click sound" on button click
 
 // 3. Create a Div element to output the data results from the API call
