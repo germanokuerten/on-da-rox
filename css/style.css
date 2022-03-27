@@ -51,3 +51,27 @@ button:hover {
         background-position: 100%;
     }
 }
+
+main {
+    color: #1a1a1a;
+}
+
+#drink-title {
+    text-align: center;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+#drink-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+#drk-image {
+    width: 200px;
+    /* height: auto; */
+}
+

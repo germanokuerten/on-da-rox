@@ -6,7 +6,7 @@
 
 // Pseudocode: App outline
 
-// 1. Add header element with On Da Rox logo (inside of a main -> header tag)
+// 1. Add header element with On Da Rox logo
     // Header element created on html, as well as logo png image.
     
     // 1.1 access HTML image element through DOM and crete new variable using jQuery
@@ -43,11 +43,23 @@
         // done on html
         
 // 3. Create an element to output the data results from the API call
-    // Deliver the API data in a well organized and stylized manner
-    // that being:
+        // <main> element created on html
+
+    // 3.1 Deliver the API data in a well organized and stylized manner
+        
     // Drink Title
-    // Image of the drink to the left
+
+    $("#drink-title").text(`${data.drinks[0].strDrink}`)
+
+    // Image of the drink
+
+    $("#drink-image").html(`<img id="drk-image" src=${data.drinks[0].strDrinkThumb} alt="${data.drinks[0].strDrink}"/>`)
+
+    // make image to the left (come back to this)
+
     // Ingredients to the right (Same roll as drink image)
+            
+
     // and then finally recipe instructions
 
     })
