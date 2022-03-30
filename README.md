@@ -23,8 +23,8 @@ On Da Rox is a digital drink crafter and a cocktail recipe app
 <!-- Alternative -->
 
 <p float="left">
-  <img src="./Images/markdown_design_mockup_1" width="250" />
-  <img src="./images/markdown_design_mockup" width="250" /> 
+  <img src="./images/markdown_design_mockup_1" width="250" />
+  <img src="./images/markdown_design_mockup_" width="250" /> 
 </p>
 
 <!-- Alternative -->
