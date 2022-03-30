@@ -9,7 +9,7 @@
 // 1. Add header element with On Da Rox logo
     // Header element created on html, as well as logo png image.
     
-    // 1.1 access HTML image element through DOM and crete new variable using jQuery
+    // 1.1 access HTML image element through DOM and create new variable using jQuery
     const $onDaRoxLogo = $("#ondarox_logo")
 
     // 1.2 add event listener that refreshes the page
@@ -75,36 +75,40 @@
     $("#ingredient9").text(`• ${data.drinks[0].strIngredient9}`)
     $("#ingredient10").text(`• ${data.drinks[0].strIngredient10}`)
 
-    
+        // Notes for implementing loop
+        // for (let ingredient of data.drinks[])
+        // for (let i = 0; )
+        // try array method filter()
 
     if (data.drinks[0].strIngredient3 === null) { 
-        $("#ingredient3").remove();
+        $("#ingredient3").text("");
     }
     if (data.drinks[0].strIngredient4 === null) { 
-        $("#ingredient4").remove();
+        $("#ingredient4").text("");
     }
     if (data.drinks[0].strIngredient5 === null) { 
-        $("#ingredient5").remove();
+        $("#ingredient5").text("");
     }
     if (data.drinks[0].strIngredient6 === null) { 
-        $("#ingredient6").remove();
+        $("#ingredient6").text("");
     }
     if (data.drinks[0].strIngredient7 === null) { 
-        $("#ingredient7").remove();
+        $("#ingredient7").text("");
     }
     if (data.drinks[0].strIngredient8 === null) { 
-        $("#ingredient8").remove();
+        $("#ingredient8").text("");
     }
     if (data.drinks[0].strIngredient9 === null) { 
-        $("#ingredient9").remove();
+        $("#ingredient9").text("");
     }
     if (data.drinks[0].strIngredient10 === null) { 
-        $("#ingredient10").remove();
+        $("#ingredient10").text("");
     }
     
     // and then finally recipe instructions
 
     $("#instructions").text(`Instructions: ${data.drinks[0].strInstructions}`)
+ 
 
     })
 })
@@ -112,4 +116,10 @@
 // 4. Optional 
     // Quote of the Day API (At the very bottom)
     // Message about drinking responsibly and respecting life
-    // Redo the logo, so it's actually 2 ice cubes with text
+    // Redo the logo, so it's actually 2 ice cubes with HTML text
+    // Have bullet points align in the ingredients ***
+    // DRY code, make ingredients into a loop.
+
+// 5. Bug
+    // Once null ingredients are removed they do not return again, even when a drink has more than 2 ingredients (It's like the if statements don't restart everytime button is clicked) 
+        // Fixed with the .text("");

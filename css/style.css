@@ -81,11 +81,20 @@ main {
     padding-bottom: .5em;
 }
 
+/* .container {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;  
+} */
+
 #ingredients-div {
     text-align: center;
     line-height: 0.2em;
+    /* text-indent: 40%;   */
 }
 
 #instructions {
     text-align: center;
+    /* Optional below margins */
+    margin-left: 1em;
+    margin-right: 1em;
 }
