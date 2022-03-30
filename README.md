@@ -8,7 +8,7 @@ On Da Rox is a digital drink crafter and a cocktail recipe app
 
 - Have you ever been out at a restaurant on a date or out with friends and don't know what drink to order, no worries On Da Rox can help you by crafting you a cocktail. Which you can then show the bartender or do it yourself, impress your friends, and get the party started. 🍸
 
-##### Technologies
+### Technologies
 
 - HTML5
 - CSS3
@@ -18,7 +18,7 @@ On Da Rox is a digital drink crafter and a cocktail recipe app
 - Thecocktaildb API
 - Photoshop
 
-##### Mockup Design
+### Mockup Design
 
 <!-- Alternative -->
 
@@ -39,13 +39,13 @@ Getting Started            |  Button Push
 ![](./Images/markdown_design_mockup_1)  |  ![](./images/markdown_design_mockup)
 
 
-##### UI Screenshots
+### UI Screenshots
 
 MVP            |  
 :-------------------------:|
 ![](./Images/markdown_design_mockup_final)  |
 
-##### Future Enhancements
+### Future Enhancements
 
 - Log in
 - Drop down menu
