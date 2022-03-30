@@ -45,7 +45,7 @@ Getting Started            |  Button Push
 
 MVP            |  
 :-------------------------:|
-![](./Images/markdown_design_mockup_final)  |
+![](./images/markdown_design_mockup_final)  |
 
 ## Future Enhancements
 
