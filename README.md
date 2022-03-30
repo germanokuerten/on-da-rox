@@ -41,9 +41,9 @@ Getting Started            |  Button Push
 
 #####UI Screenshots
 
-Getting Started            |  
+MVP            |  
 :-------------------------:|
-![](./Images/markdown_design_mockup_1)  |
+![](./Images/markdown_design_mockup_final)  |
 
 #####Future Enhancements
 
