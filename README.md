@@ -1,4 +1,4 @@
-#[On Da Rox](ondarox.co)
+#On Da Rox
 
 On Da Rox is a digital drink crafter and a cocktail recipe app
 
