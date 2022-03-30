@@ -62,7 +62,7 @@ MVP            |
 | App Name | On Da Rox - cocktail recipe app |
 | Description | On Da Rox is a digital drink crafter and a cocktail recipe app  |
 | Developers | Germano Kuerten |
-| Live Website | ondarox.co |
+| Live Website | http://ondarox.co |
 | Repo | https://github.com/germanokuerten/on-da-rox |
 
 Obs: This app was created for celebratory purposes. Drink moderately and responsibly. And never Drink and Drive. Your life, and other peoples lives are precious.
